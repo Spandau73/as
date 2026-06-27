@@ -91,27 +91,14 @@
     margin-bottom: 10px;
     display: inline-block;
     object-fit: cover;
-  }
-  /* Fullscreen button */
-  .fullscreen-btn {
-    display: block;
-    width: 100%;
-    padding: 16px;
-    background: #1a1a1a;
-    border: 1px solid #333;
-    border-radius: 12px;
-    color: #fff;
-    font-size: 18px;
+  }-size: 18px;
     font-weight: 600;
     cursor: pointer;
     text-align: center;
     margin: 20px 0;
     transition: 0.2s;
   }
-  .fullscreen-btn:hover, .fullscreen-btn:active {
-    background: #222;
-    border-color: #555;
-  }
+
 
   /* Footer */
   footer {
@@ -147,8 +134,7 @@
     </div>
   </div>
 
-  <!-- Fullscreen Button -->
-  <button class="fullscreen-btn" onclick="goFullscreen()">⛶ GO FULLSCREEN</button>
+
 
   <!-- Footer -->
   <footer>
@@ -156,16 +142,6 @@
   </footer>
 </div>
 
-<script>
-function goFullscreen() {
-  if (document.documentElement.requestFullscreen) {
-    document.documentElement.requestFullscreen();
-  } else if (document.documentElement.webkitRequestFullscreen) {
-    document.documentElement.webkitRequestFullscreen();
-  } else if (document.documentElement.msRequestFullscreen) {
-    document.documentElement.msRequestFullscreen();
-  }
-}
-</script>
+<script></script>
 </body>
 </html>
